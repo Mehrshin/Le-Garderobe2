@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="UTF-8">
+    <title>Le Garderobe | Shop</title>
+    <meta name="author" content="Megan Sydiaha- Shirin Nasir- Hossein Nazarpour">
+    <meta name="description" content="clothing and accessories for men and women">
+
+    <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+
+    <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <!--<link href="../../../bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles/product.css">
+    <link rel="stylesheet" href="styles/main.css">
+
+    <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="images/le-garderobe-website-favicon-black.png">
+
+    <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/73ffe7e01c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- top bit for support number and language -->
+    <nav class="navbar navbar-dark bg-dark ">
+        <div class="container">
+            <div class="bi bi-headset text-green"> Support - <a class="tel-link" href="tel:1234567890">(123) 456 7890</a></div>
+            <div class="dropdown">
+                <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <!--removing the flag -->
+                    <!--<span class="flag-icon flag-icon-us"></span>--> English
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item" href="#"><!--removing the flag --><!--<span class="flag-icon flag-icon-fr"> </span>--> French</a></li>
+                  <li><a class="dropdown-item" href="#">
+                    <!--removing the flag -->
+                    <!--<span class="flag-icon flag-icon-ir"> </span>--> Persian</a></li>
+                </ul>
+              </div>
+        </div>
+    </nav>
+
+
+    <!-- logo, brand name, search, account etc -->
+    <nav class="navbar navbar-brand navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <header class="d-flex flex-row py-4 justify-content-evenly align-items-center">
+                <img src="images/le-garderobe-low-resolution-logo-color-on-transparent-background.png"
+                    alt="Le Garderobe colored logo" title="Le Garderobe colored logo" class=" mr-3 img-fluid">
+                <a class="navbar-brand lg-brand" href="homepage.html"> Le Garderobe</a>
+                <form class="d-flex" role="search">
+                    <div class="input-group search-bar">
+                        <input type="text" class="form-control" placeholder="Search">
+                        <div class="input-group-append">
+                            <button class="btn submit-button" type="submit">Search</button>
+                        </div>
+                    </div>
+                </form>
+                <a href="#" class="text-black flex-item" title="Wishlist"><i class="fa-solid fa-heart fa-lg"></i></a>
+                <a href="#" class="text-black flex-item" title="My Account"><i class="fa-solid fa-user fa-lg"></i></a>
+                <a href="#" class="text-black flex-item" title="Cart"><i
+                        class="fa-solid fa-cart-shopping fa-lg"></i></a>
+            </header>
+        </div>
+    </nav>
+
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-sm navbar-light">
+
+        <!-- hamburger menu icon -->
+        <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- nav bar links -->
+        <div class="collapse navbar-collapse justify-content-evenly" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link px-5" href="homepage.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link px-5" href="products.html">Shop</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link px-5" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link px-5" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link px-5" href="#">FAQ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link px-5" href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+<!-- starttttttttttttttttttttttttttttttttttttttttttttttttttt-->
+
+    <!-- Create the blue container with text inside -->
+    <div class="blue-container">
+        <h2>Sport Hooded Sweatshirt</h2>
+        <p>Trending Item</p>
+    </div>
+
+
+    <div class="container1">
+            <img src="images/Sport_Hooded_Sweatshirt.jpg"  class="image1" alt="Sport Hooded Sweatshirt">
+
+                <div class="picturecaption">
+                    <h1>Huge Fall Collection</h1>
+                    <h3>Item has just arrived!</h3>
+                </div>            
+    </div>
+
+
+    <div class="middle-body">
+            <div id="size-dropdown">
+                <h5 class="pl-100">Size</h5>
+                <select>
+                    <option id="my-dropdown" value="XS">XS</option>
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                </select>
+            </div>
+
+            
+
+
+            <div id="qty-dropdown">
+                    <h5>QTY</h5>
+                    <select>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    </select>
+            </div>    
+
+            <button type="button" class="cart-button">Add to cart</button>
+            <p></p>
+            <!-- Collapsible button -->
+            <input type="checkbox" id="collapsible-toggle" class="collapsible-toggle">
+            <label for="collapsible-toggle" class="collapsible-label">Material info &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>></label>
+            
+            <!-- Content inside the collapsible box -->
+            <div class="content">
+            <p></p>
+
+                <p>Composition Elastic rib: Cotton 95%, Elastane 5%</p>
+                <p>Lining: Cotton 100%
+                Cotton 80%, Polyester 20%</p>
+                <p>Art. No.
+                183260098</p>
+            </div>
+            
+
+
+            <!-- Collapsible button2 -->
+            <input type="checkbox" id="collapsible-toggle2" class="collapsible-toggle2">
+            <label for="collapsible-toggle2" class="collapsible-label2">Shipping Options&nbsp;>></label>
+            
+            <!-- Content inside the collapsible box2 -->
+            <div class="content2">
+
+                <h3>Courier</h3><p>(2 - 4 days) $26.50</p>
+                <h3>Local shipping</h3><p>(up to one week) $10.00</p>
+                <h3>Local pickup from store</h3><p>(Instantly) $0.00</p>
+                    
+            </div>
+    </div>
+
+
+    <div class="description">
+
+            <div class="description-text-box">
+                <h3>High quality materials</h3><h5>Soft cotton blend</h5><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit.</p>
+            </div>
+            <img src="images/Sport_Hooded_Sweatshirt-gray-f9.jpg" alt="Image" class="description-image">
+
+            <div class="description-text-box">
+                <h3>Where is it made?</h3><h5>Apparel Manufacturer, Ltd.</h5>
+                <p>Sam Tower, 6 Road No 32, Dhaka 1875, Bangladesh</p>
+                <p>3258 Workers 43% Female 57% Male</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+            </div>
+            <img src="images/map-placeholder-gray-f9.png" alt="Image" class="description-image">
+    </div>
+
+
+    <div id="overal_rating" class="container3">
+                    <div class="text-box3"><h3>74 Reviews</h3><h5>4.1 Overall rating</h5>
+                    </div>
+                    <img src="images/rating.png" alt="Your Image" class="image3">
+    </div>
+
+
+    <div id="customer_reviews">
+        <div class="review">
+            <div class="user-info">
+                <img src="images/Rafael_Marquez.jpg" alt="User Avatar" class="user-avatar">
+                <p class="user-name">Rafael Marquez</p>
+            </div>
+            <div class="rating">
+                <span class="stars">★★★★★</span>
+                <span class="review-date">Posted on August 15, 2023</span>
+            </div>
+            <p class="user-comment">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est...</p>
+            <div class="enter"></div>
+            <p>Pros: Consequuntur magni, voluptatem sequi, tempora</p>
+            <p>Cons: Architecto beatae, quis autem.</p>
+        </div>
+
+        <!-- Additional reviews -->
+        <div class="review">
+            <div class="user-info">
+                <img src="images/Barbara_Palson.jpg" alt="User Avatar" class="user-avatar">
+                <p class="user-name">Barbara Palson</p>
+            </div>
+            <div class="rating">
+                <span class="stars">★★★★</span>
+                <span class="review-date">Posted on August 15, 2023</span>
+            </div>
+            <p class="user-comment">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p>Pros: Consequuntur magni, voluptatem sequi, tempora</p>
+            <p>Cons: Architecto beatae, quis autem</p>
+        </div>
+    </div>
+
+
+    <div id='review'>
+            <h2>Submit a Review</h2>
+        <form class="review-form" action="submit_review.php" method="post">
+            <label for="username">Your Name:</label>
+            <input type="text" class="input-review" id="username" name="username" required>
+
+            <label for="rating">Rating:</label>
+            <select id="rating" name="rating" required>
+                <option value="">★★★★★</option>
+                <option value="4">★★★★☆</option>
+                <option value="3">★★★☆☆</option>
+                <option value="2">★★☆☆☆</option>
+                <option value="1">★☆☆☆☆</option>
+            </select>
+
+            <label for="reviewbox">Your Review:</label>
+            <textarea id="reviewbox" name="review" rows="4" required></textarea>
+
+            <button type="button" class="btn btn-primary btn-shop">Submit</button>
+        </form>
+    </div>
+
+<!--endddddddddddddddddddddddddddddddddddddddddd-->
+    
+
+    <!-- Trending products-->
+    <div class="container pt-md-3 pb-5 mb-md-3">
+        <h2 class="text-center">Trending Products</h2>
+        <div class="row row-cols-1 row-cols-md-4 g-4 pt-4">
+            <div class="col">
+                <div class="card">
+                    <img src="images/trending1.jpg" class="card-img-top" alt="trending product 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Sportswear</h5>
+                        <p class="card-text">Women Colorblock Sneakers</p>
+                        <p class="text-blue">$68.40</p>
+                    </div>
+                    <a href="products.html" class="stretched-link"></a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="images/trending2.jpg" class="card-img-top" alt="trending product 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Sneakers & Keds</h5>
+                        <p class="card-text">Women colorblock Sneakers</p>
+                        <p class="text-blue">$154.00</p>
+                    </div>
+                    <a href="products.html" class="stretched-link"></a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="images/trending3.jpg" class="card-img-top" alt="trending product 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Women's shorts</h5>
+                        <p class="card-text">Mom High Waist Shorts </p>
+                        <p class="text-blue">$39.50</p>
+                    </div>
+                    <a href="products.html" class="stretched-link"></a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="images/trending4.jpg" class="card-img-top" alt="trending product 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Men's sunglasses</h5>
+                        <p class="card-text">Polarized sunglasses</p>
+                        <p class="text-gray">Out of Stock</p>
+                    </div>
+                    <a href="products.html" class="stretched-link"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Map frame-->
+    <div class="container pt-md-3 pb-5 mb-md-3">
+        <h2 class="text-center">Location</h2>
+        <div class="row pt-4">
+            <div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2795.84713526708!2d-73.57271182292017!3d45.51315577107485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91a4a573dd87f%3A0xb25e908c8ed5e8da!2s3451%20St%20Laurent%20Blvd%2C%20Montreal%2C%20QC%20H2X%202T6!5e0!3m2!1sen!2sca!4v1693705884545!5m2!1sen!2sca"
+                    class="h-100 w-100" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="container-fluid p-5">
+        <div class="row">
+            <div class="text-center col-3">
+                <a href="homepage.html"><img src="images/le-garderobe-low-resolution-logo-black-on-transparent-background.png"
+                    alt="Le Garderobe colored logo" title="Return to homepage" class=" mr-3 img-fluid"></a>
+            </div>
+            <div class="text-center col-3">
+                <h4>Helpful Links</h4>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="link-dark">Shipping policy</a></li>
+                    <li><a href="#" class="link-dark">Returns and exchanges</a></li>
+                    <li><a href="#" class="link-dark">Track my order</a></li>
+                    <li><a href="#" class="link-dark">Size guide</a></li>
+                    <li><a href="contact.html" class="link-dark">Contact us</a></li>
+                    <li><a href="#" class="link-dark">FAQs</a></li>
+                </ul>
+            </div>
+            <div class="text-center col-3">
+                <h4>About Us</h4>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="link-dark">Our story</a></li>
+                    <li><a href="#" class="link-dark">Our team</a></li>
+                    <li><a href="#" class="link-dark">Careers</a></li>
+                </ul>
+            </div>
+            <div class="text-center col-3">
+                <h4>Sign up for our mailing list</h4>
+                <div class="input-group pt-3">
+                    <input type="email" class="form-control" placeholder="yourname@example.com">
+                    <div class="input-group-append">
+                        <button class="btn btn-dark" type="submit">Join</button>
+                    </div>
+                </div>
+                <div class="pt-3">
+                    <a href="#" title="Facebook"><i class="fa-brands fa-square-facebook fa-xl p-1 text-black"></i></a>
+                    <a href="#" title="Instagram"><i class="fa-brands fa-square-instagram fa-xl p-1 text-black"></i></a>
+                    <a href="#" title="X/Twitter"><i class="fa-brands fa-square-x-twitter fa-xl p-1 text-black"></i></a>
+                    <a href="#" title="Pinterest"><i class="fa-brands fa-square-pinterest fa-xl p-1 text-black"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

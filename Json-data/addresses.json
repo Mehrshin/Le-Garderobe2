@@ -1,0 +1,6 @@
+{"addresses":[
+    { "civicNumber":"1211", "street":"Prospect St" , "city":"Fredericton" ,"province":"New Brunswick","postalCode":"E3B 3B9" },
+    { "civicNumber":"9803", "street":"St NW" , "city":"Edmonton" ,"province":"Alberta","postalCode":"T6A 3X5"  },
+    { "civicNumber":"50", "street":"Young Street West" , "city":"Waterloo" ,"province":"Ontario","postalCode": "N2L 2Z4" }
+  ]
+}

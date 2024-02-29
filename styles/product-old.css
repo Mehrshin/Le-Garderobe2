@@ -1,0 +1,317 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Merriweather:wght@300&family=Roboto+Slab:wght@300&display=swap');
+
+body {
+    font-family: 'Merriweather', serif;
+}
+
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../images/contact-hero-image.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 150px;
+}
+
+#map {
+    grid-column: 2;
+    grid-row: 1/span 3;
+}
+
+header img {
+    width: 7%;
+    height: auto;
+}
+
+.submit-button {
+    background-color: #E6B17E;
+    color: black;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.submit-button:hover {
+    background-color: #C56E33;
+    color: white;
+}
+
+.search-bar {
+    width: 500px;
+}
+
+nav {
+    background-color: #E6B17E;
+}
+
+.form-line {
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.form-line:focus {
+    outline: none;
+}
+
+textarea {
+    background-color: rgb(241, 239, 239);
+}
+
+footer img {
+    width: 50%;
+    height: auto;
+}
+
+footer {
+    background-color: #E6B17E;
+}
+
+/* Define the CSS style for the blue container */
+.blue-container {
+    text-align: center;
+    font-size: xx-small;
+    background-color: rgb(31, 31, 96);
+    color: white;
+    padding: 40px;
+
+}
+
+/* Apply CSS styles to increase the size of the dropdown box */
+select {
+        margin: 0px;
+        width: 10px; /* Set the width in pixels or any other unit */
+        height: 45px; /* Set the height in pixels or any other unit */
+        font-size: large;
+}
+
+/* Original CSS rule with a class selector */
+#size-dropdown {
+    width: 70px; /* Your intended width */
+}
+
+#qty-dropdown {
+    width: 70px; /* Your intended width */
+}
+
+select option {
+    text-align: left; /* Center the text within the dropdown options */
+}
+
+
+/* Style for the collapsing text box */
+.collapsible-toggle {
+    display: none;
+}
+
+.collapsible-label {
+    background-color: #f1f1f1;
+    color: #333;
+    cursor: pointer;
+    padding: 0px; /* Change the padding to adjust height */
+    width: 130px; /* Change the width to adjust width */
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 12px;
+    display: block;
+}
+
+/* Style for the content inside the collapsing box */
+.content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+    background-color: #ffffff;
+    padding: 20px; /* Change the padding to adjust height */
+    width: 450px; /* Change the width to adjust width */
+}
+
+/* Style for expanding the content when the checkbox is checked */
+.collapsible-toggle:checked + .collapsible-label + .content {
+    max-height: 1000px; /* Adjust this value to control the maximum height of the content when expanded */
+}
+
+
+/* Style for the collapsing text box2 */
+.collapsible-toggle2 {
+    display: none;
+}
+
+.collapsible-label2 {
+    background-color: #f1f1f1;
+    color: #333;
+    cursor: pointer;
+    padding: 0px; /* Change the padding to adjust height */
+    width: 130px; /* Change the width to adjust width */
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 12px;
+    display: block;
+}
+
+/* Style for the content inside the collapsing box */
+.content2 {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+    background-color: #ffffff;
+    padding: 20px; /* Change the padding to adjust height */
+    width: 400px; /* Change the width to adjust width */
+}
+
+/* Style for expanding the content when the checkbox is checked */
+.collapsible-toggle2:checked + .collapsible-label2 + .content2 {
+    max-height: 1000px; /* Adjust this value to control the maximum height of the content when expanded */
+}
+
+
+/* Style for the container holding both image and text */
+.container2 {
+    margin: 100px;
+    align-items: center;
+    width: 800px; /* Set the desired width */
+    overflow: hidden; /* Clear the float to contain both elements */
+}
+
+/* Style for the text box */
+.text-box2 {
+    font-family:  'Arial Narrow', Arial, sans-serif;
+    text-align:center;
+    float: left; /* Float the text box to the left */
+    width: 300px; /* Set the desired width for the text box */
+    padding: 10px; /* Add padding for spacing */
+}
+
+/* Style for the image */
+.image2 {
+    float: right; /* Float the image to the right */
+    width: 350px; /* Set the desired width for the image */
+    height: auto; /* Allow the height to adjust proportionally */
+}
+
+/* Style for the container holding both image and text3 */
+.container3 {
+    margin: 100px;
+    align-items: center;
+    width: auto; /* Set the desired width */
+    overflow: hidden; /* Clear the float to contain both elements */
+}
+
+/* Style for the text box3 */
+.text-box3 {
+    font-family:  'Arial Narrow', Arial, sans-serif;
+    text-align:center;
+    float: left; /* Float the text box to the left */
+    width: 150px; /* Set the desired width for the text box */
+    padding: 10px; /* Add padding for spacing */
+}
+
+/* Style for the image */
+.image3 {
+    float: right; /* Float the image to the right */
+    width: 600px; /* Set the desired width for the image */
+    height: auto; /* Allow the height to adjust proportionally */
+}
+
+
+
+/* Review section styles */
+.review {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid #ccc;
+    padding: 40px;
+    margin: 20px 0;
+    background-color: #f9f9f9;
+}
+
+/* User info styles */
+.user-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user-name {
+    font-weight: bold;
+}
+
+/* Rating styles (You can use a rating library for dynamic ratings) */
+.rating {
+    margin-bottom: 10px;
+}
+
+.stars {
+    color: gold;
+    font-size: 20px;
+}
+
+.review-date {
+    color: #777;
+    margin-left: 10px;
+}
+
+/* User comment styles */
+.user-comment {
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+/* Additional styles as needed */
+
+/* Centering the review section */
+h2 {
+    text-align: center;
+}
+
+/* Review form styles */
+.review-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    margin-bottom: 100px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+

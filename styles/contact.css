@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Merriweather:wght@300&family=Roboto+Slab:wght@300&display=swap');
+
+body {
+    font-family: 'Merriweather', serif;
+}
+
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/contact-hero-image.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 150px;
+}
+
+#map {
+    grid-column: 2;
+    grid-row: 1/span 3;
+}
+
+header img {
+    width: 7%;
+    height: auto;
+}
+
+.submit-button {
+    background-color: #E6B17E;
+    color: black;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.submit-button:hover {
+    background-color: #C56E33;
+    color: white;
+}
+
+nav {
+    background-color: #E6B17E;
+}
+
+.form-line {
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.form-line:focus {
+    outline: none;
+}
+
+textarea {
+    background-color: rgb(241, 239, 239);
+}
+
+footer img {
+    width: 50%;
+    height: auto;
+}
+
+footer {
+    background-color: #E6B17E;
+}
+
+.carousel-inner>.carousel-item>img,
+.carousel-inner>.carousel-item>a>img {
+    width: 100% !important;
+}
+
+@media (max-width: 767px) {
+    .search-bar {
+        width: 100%;
+    }
+}
+
+    @media (min-width: 768px) and (max-width: 991px) {
+        .search-bar {
+            width: 205px;
+        }
+    }
+
+    @media (min-width: 992px) and (max-width: 1199px) {
+        .search-bar {
+            width: 425px;
+        }
+        .lg-brand {
+            font-size: 30px !important;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        .search-bar {
+            width: 625px;
+        }
+        
+    .lg-brand {
+        font-size: 45px !important;
+    }
+    }

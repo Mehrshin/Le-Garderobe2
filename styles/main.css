@@ -1,0 +1,40 @@
+.text-green {
+  --bs-text-opacity: 1;
+  color: lightgreen;
+}
+
+.text-blue {
+  --bs-text-opacity: 1;
+  color: blue;
+}
+
+.text-gray {
+  --bs-text-opacity: 1;
+  color: darkgray;
+}
+
+.btn-shop {
+  background-color: #E6B17E;
+  color: black;
+  border: 2px solid lightgray;
+  border-radius: 5px;
+  padding: 10px;
+}
+.btn-shop:hover {
+  background-color: #C56E33;
+  color: white;
+  border-color: #C56E33;
+}
+
+.tel-link {
+  text-decoration: none;
+  color: lightgray;
+}
+.tel-link:hover {
+  color: white;
+}
+
+.card:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.16), 0 4px 10px rgba(0, 0, 0, 0.23);
+}
+

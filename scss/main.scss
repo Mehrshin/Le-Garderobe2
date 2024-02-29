@@ -1,0 +1,107 @@
+
+@import './variables';
+
+.text-green {
+    --bs-text-opacity: 1;
+    color: $headset-color;
+}
+
+.text-blue {
+    --bs-text-opacity: 1;
+    color: $price-color;
+}
+
+.text-gray {
+    --bs-text-opacity: 1;
+    color: $inactive-color;
+}
+
+.btn-shop {
+    background-color: $btn-bgcolor ;
+    color: black;
+    border: 2px solid $btn-border-color;
+    border-radius: 5px;
+    padding: 10px;
+    &:hover {
+        background-color: $btn-bgcolor-hover;
+        color: $btn-color-hover;
+        border-color: $btn-bgcolor-hover;
+    }
+}
+
+.tel-link {
+    text-decoration: none;
+    color: $support-color;
+    &:hover {
+        color: lighten($color: $support-color, $amount: 50%);
+    }
+}
+
+.card {
+    &:hover {
+        box-shadow: 0 4px 10px rgba(0,0,0,0.16), 0 4px 10px rgba(0,0,0,0.23);
+    }
+}
+
+
+/*
+@import './reset';
+@import './variables';
+
+@function weight($weight-name) {
+    @return map-get($map: $font-weights, $key: $weight-name );
+}
+
+@mixin flexCenter($direction) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direction;
+}
+
+@mixin theme($light-theme: true){
+    @if $light-theme {
+        background-color: lighten($color: $primary-color, $amount: 100%);
+        color: darken($color: $text-xolor , $amount: 100%);
+    }
+}
+
+@mixin mobile {
+    @media (max-width: $mobile) {
+        @content;
+    }
+}
+
+body {
+    background: $accent-color;
+    color: $text-xolor;
+    font-weight: map-get($map: $font-weights, $key: regular);
+}
+
+.main {
+
+    @include flexCenter(row);
+    width: 80%;
+    margin: 0 auto;
+
+    #{&}__paragraph {
+         font-weight: weight(regular);
+
+         &:hover {
+            color: $secondary-color;
+        }
+    }
+}
+
+#{&}__paragraph2 {
+    @extend .main__paragraph;
+    &:hover {
+        color: $accent-color;
+    }
+}
+
+.light {
+    @include theme($light-theme: true);
+}
+
+*/
